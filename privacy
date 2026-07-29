@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>countlessnights</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  html, body {
+    background-color: #ffffff;
+    color: #111111;
+    font-family: Consolas, "Courier New", monospace;
+    font-size: 15px;
+    line-height: 1.7;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .wrap {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 80px 30px 60px;
+  }
+
+  h1 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+  }
+
+  h1 img.logo {
+    width: 48px;
+    height: 48px;
+    object-fit: contain;
+    border: none;
+    margin: 0;
+    display: block;
+  }
+
+  h2 {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 50px 0 16px;
+    border-top: 1px solid #ddd;
+    padding-top: 32px;
+  }
+
+  p { margin-bottom: 16px; }
+
+  a { color: #111; }
+
+  img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 24px 0;
+    border: 1px solid #eee;
+  }
+
+  .images {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+    margin: 24px 0;
+  }
+
+  .images img { margin: 0; }
+
+  dl {
+    display: grid;
+    grid-template-columns: 110px 1fr;
+    gap: 8px 20px;
+  }
+
+  dt { color: #666; }
+
+  @media (max-width: 600px) {
+    .wrap { padding: 50px 22px 40px; }
+    h1 { font-size: 24px; }
+    .images { grid-template-columns: 1fr; }
+    dl { grid-template-columns: 1fr; gap: 2px; }
+    dt { margin-top: 8px; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <h1><img class="logo" src="logo.png" alt="">countlessnights</h1>
+
+  <h2>Dice A Million</h2>
+  <p>Have you ever tried to roll 1,000,000 on a set of dice? No? Build the right bag of die, and you might just pull it off.</p>
+
+  <div class="images">
+    <img src="screen1.webp" alt="Dice A Million screenshot">
+    <img src="screen2.jpg" alt="Dice A Million screenshot">
+  </div>
+
+  <p><a href="https://store.steampowered.com/app/3430340/Dice_A_Million/" target="_blank" rel="noopener">steam link</a></p>
+
+  <h2>contact</h2>
+  <dl>
+    <dt>email</dt><dd><a href="mailto:countlessnightsdev@countlessnights.com">countlessnightsdev@countlessnights.com</a></dd>
+    <dt>twitter</dt><dd><a href="https://x.com/countlessn1ghts" target="_blank" rel="noopener">@countlessn1ghts</a></dd>
+    <dt>bluesky</dt><dd><a href="https://bsky.app/profile/countlessnights.bsky.social" target="_blank" rel="noopener">@countlessnights.bsky.social</a></dd>
+  </dl>
+
+</div>
+</body>
+</html>
